@@ -12,3 +12,4 @@
 ## Cropper.js
 参考  
 - [Cooper.jsの使い方](https://cpoint-lab.co.jp/article/202208/23302/)
+- [github](https://github.com/fengyuanchen/cropperjs)
