@@ -18,7 +18,7 @@ selectElement.addEventListener('change', () => {
     }
 }, false);
 
-SettingImage = () => {
+const SettingImage = () => {
     let imgElement = document.createElement('img');
     imgElement.src = URL.createObjectURL(filename);
     imgElement.onload = () => {
@@ -35,6 +35,6 @@ SettingImage = () => {
     }
 }
 
-function onOpenCvReady() {
+const onOpenCvReady = () => {
     document.getElementById('status').innerHTML = 'OpenCV.js is ready.';
 }
