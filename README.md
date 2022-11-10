@@ -6,3 +6,4 @@
 - [openCVの短縮ソース](https://docs.opencv.org/3.4.0/opencv.js)
 - [script-async-defer](https://ja.javascript.info/script-async-defer)
 - [openCVの説明](https://shikaku-mafia.com/opencv-javascript-how-to-use/)
+- [切り取りpython](https://blog.capilano-fw.com/?p=1990#crop)
