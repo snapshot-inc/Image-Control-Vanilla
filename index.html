@@ -1,13 +1,34 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iimon</title>
-</head>
-<body>
-    <div id="cat_fact"></div>
-    <button onclick="handleUpdate()">更新</button>
-    <script src="./main.js"></script>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpenCV.js sample</title>
+  </head>
+  <body>
+    <h2>OpenCV.js sample code</h2>
+    <p id="status">OpenCV.js is loading...</p>
+    <div>
+      <select name="imgType" id="ImgType">
+        <option value="カラー">カラー</option>
+        <option value="グレー">グレー</option>
+      </select>
+      <div class="inputoutput">
+        <div class="caption">
+          imageSrc <input type="file" id="fileInput" name="file" />
+        </div>
+      </div>
+      <div class="inputoutput">
+        <div class="caption">canvasOutput</div>
+        <canvas id="canvasOutput"></canvas>
+      </div>
+    </div>
+  </body>
+  <script src="js/ImgScript.js" type="text/javascript"></script>
+  <script
+    async
+    src="lib/opencv.js"
+    onload="onOpenCvReady();"
+    type="text/javascript"
+  ></script>
 </html>
