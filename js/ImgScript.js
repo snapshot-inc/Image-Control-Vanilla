@@ -11,11 +11,8 @@ inputElement.addEventListener('change', (e) => {
 }, false);
 
 selectElement.addEventListener('change', () => {
-    if (filename === "") {
-
-    } else {
-        SettingImage();
-    }
+    if (filename === "") return
+    SettingImage();
 }, false);
 
 const SettingImage = () => {
@@ -28,6 +25,9 @@ const SettingImage = () => {
         cv.resize(mat, dst, dsize, 0, 0, cv.INTER_AREA);
         if (selectElement.value === "グレー") {
             cv.cvtColor(dst, dst, cv.COLOR_RGB2GRAY);
+        }
+        if (selectElement.value === "イエロー") {
+            cv.cvtColor(dst, dst, cv.COLOR_RGB2HSV);
         }
         cv.imshow('canvasOutput', dst);
         mat.delete();
