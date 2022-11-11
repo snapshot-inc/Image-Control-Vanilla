@@ -1,0 +1,26 @@
+<html>
+  <body>
+    <button
+      onclick="load_img('https://lh3.ggpht.com/O0aW5qsyCkR2i7Bu-jUU1b5BWA_NygJ6ui4MgaAvL7gfqvVWqkOBscDaq4pn-vkwByUx=w300')"
+    >
+      A
+    </button>
+    <button onclick="load_img('/img/Screenshot_2022-11-10-14-02-47-93.png')">
+      B
+    </button>
+    <button onclick="load_img('')">C</button><br />
+    <input
+      id="scal"
+      type="range"
+      value=""
+      min="10"
+      max="400"
+      oninput="scaling(value)"
+      style="width: 300px"
+    /><br />
+    <canvas id="cvs" width="300" height="400"></canvas><br />
+    <button onclick="crop_img()">CROP</button><br />
+    <canvas id="out" width="200" height="200"></canvas>
+    <script src="js/main.js" />
+  </body>
+</html>
