@@ -18,3 +18,11 @@
 ## Crop
 参考  
 - [サンプル](https://qiita.com/yamazaki3104/items/abbcb88f573d3c5a4a40)
+
+## Canvas
+参考  
+- [参考](https://step-learn.com/article/javascript/143-canvas-clip.html)
+
+## Make
+参考  
+- [参考](https://kuroeveryday.blogspot.com/2017/09/how-to-trim-image-with-canvas.html)
