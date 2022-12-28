@@ -26,3 +26,5 @@
 ## Make
 参考  
 - [参考](https://kuroeveryday.blogspot.com/2017/09/how-to-trim-image-with-canvas.html)
+
+全て画像を切り取ることができますが、Makeが一番使えそうです。
